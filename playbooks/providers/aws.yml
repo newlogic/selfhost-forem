@@ -18,7 +18,7 @@
     fcos_aws_ebs_size: 100
     fcos_aws_profile: forem-selfhost
     butane_cleanup: true
-    ssh_key: "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+    ssh_key: "{{ lookup('file', '~/.ssh/forem-selfhost.pub') }}"
 
   roles:
     - preflight
